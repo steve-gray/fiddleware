@@ -9,7 +9,23 @@
 This module is intended to provide some common helper functions for NodeJS web applications
 leveraging the Connect/Express web servers.
 
-** TODO ** Documentation for components.
+* respondJson() - Add .json(data, responseCode) method to 'res' objects in pipeline.
+
+## Middleware Types
+### **respondJson()**
+Simple JSON response extension for outgoing response object which stringifies the 
+specified object, sets the HTTP response code and content type headers:
+
+    const fiddleware = require('fiddleware');    
+    app.use(fiddleware.respondJson());
+
+    function doSomething(req, res) {
+      // Return all of the JSONs.
+      res.json({
+        foo: 'bar'}, 200);
+    }
+
+Please note that HTTP status code is defaulted to 200 if the second parameter is not passed. 
 
 ## Licencing
 This repository is MIT licensed. That means you can use it freely without restriction or attribution. 

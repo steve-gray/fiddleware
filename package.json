@@ -32,12 +32,15 @@
   "devDependencies": {
     "chai": "^3.5.0",
     "config": "^1.19.0",
+    "connect-route": "^0.1.5",
     "eslint-config-airbnb": "^4.0.0",
     "eslint-plugin-react": "^3.16.1",
     "gulp": "^3.9.0",
     "gulp-esdoc": "^0.2.0",
     "gulp-eslint": "^1.1.1",
     "gulp-istanbul": "^0.10.3",
-    "gulp-mocha": "^2.2.0"
+    "gulp-mocha": "^2.2.0",
+    "should": "^8.2.1",
+    "supertest": "^1.1.0"
   }
 }
