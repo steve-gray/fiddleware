@@ -1,37 +1,34 @@
 {
-  "name": "base-npm-library-es6",
-  "version": "0.0.2",
-  "description": "Node.js Application Starter Pack for ES6 NPM Library",
+  "name": "fiddleware",
+  "version": "0.0.1",
+  "description": "Connect/Express middleware library with common utility functions.",
   "main": "index.js",
   "scripts": {
     "test": "gulp test"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/node-templates/base-npm-library-es6.git"
+    "url": "git+https://github.com/steve-gray/fiddleware.git"
   },
   "keywords": [
     "nodejs",
-    "example",
-    "starter",
-    "pack",
-    "gulp",
-    "mocha",
-    "chai",
-    "coverage",
-    "istanbul",
-    "unit-testing",
-    "tdd",
-    "bdd",
-    "lint",
-    "tutorial"
+    "express",
+    "connect",
+    "middleware",
+    "utilities",
+    "helpers",
+    "redirect",
+    "rewrite",
+    "profile",
+    "errors",
+    "logging"
   ],
   "author": "Steve Gray",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/node-templates/base-npm-library-es6/issues"
+    "url": "https://github.com/steve-gray/fiddleware/issues"
   },
-  "homepage": "https://github.com/node-templates/base-npm-library-es6#readme",
+  "homepage": "https://github.com/steve-gray/fiddleware/#readme",
   "devDependencies": {
     "chai": "^3.5.0",
     "config": "^1.19.0",

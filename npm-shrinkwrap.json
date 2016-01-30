@@ -1,5 +1,5 @@
 {
-  "name": "base-npm-library-es6",
+  "name": "fiddleware",
   "version": "0.0.1",
   "dependencies": {
     "abbrev": {
