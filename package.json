@@ -32,6 +32,7 @@
   "devDependencies": {
     "chai": "^3.5.0",
     "config": "^1.19.0",
+    "connect": "^3.4.1",
     "connect-route": "^0.1.5",
     "eslint-config-airbnb": "^4.0.0",
     "eslint-plugin-react": "^3.16.1",
