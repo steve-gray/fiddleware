@@ -43,5 +43,8 @@
     "gulp-mocha": "^2.2.0",
     "should": "^8.2.1",
     "supertest": "^1.1.0"
+  },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org"
   }
 }
