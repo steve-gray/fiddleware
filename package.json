@@ -1,6 +1,6 @@
 {
   "name": "fiddleware",
-  "version": "0.0.2",
+  "version": "0.1.0",
   "description": "Connect/Express middleware library with common utility functions.",
   "main": "index.js",
   "scripts": {
